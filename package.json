@@ -1,0 +1,51 @@
+{
+  "name": "@zealgeo/mcp-geo-server",
+  "version": "1.1.3",
+  "description": "MCP Server for coordinate conversion and spatial calculations",
+  "main": "./dist/server.js",
+  "bin": {
+    "@zealgeo/mcp-geo-server": "dist/cli.js",
+    "mcp-geo-server": "dist/cli.js"
+  },
+  "scripts": {
+    "start": "node dist/cli.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node scripts/build.js",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.7.0",
+    "zod": "3.20.0"
+  },
+  "devDependencies": {
+    "rimraf": "^5.0.5"
+  },
+  "keywords": [
+    "mcp",
+    "geospatial",
+    "turf",
+    "gis",
+    "geometry",
+    "spatial"
+  ],
+  "author": "ZealGeo",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://geomcp.zealmap.com/server/0y1j6p3w8b9qv05"
+  },
+  "bugs": {
+    "url": "https://geomcp.zealmap.com/server/0y1j6p3w8b9qv05"
+  },
+  "homepage": "https://geomcp.zealmap.com/server/0y1j6p3w8b9qv05",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "package.json",
+    "node_modules"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
