@@ -1,8 +1,19 @@
 # @zealgeo/mcp-geo-server
+[![smithery badge](https://smithery.ai/badge/@NodeGIS/geo-mcp-server)](https://smithery.ai/server/@NodeGIS/geo-mcp-server)
 
 这是一个基于 Model Context Protocol (MCP) 的地理处理工具服务器，提供坐标系统转换、距离计算、面积计算等空间分析功能。
 
 ## 安装
+
+### Installing via Smithery
+
+To install ZealGeo Spatial Processing Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@NodeGIS/geo-mcp-server):
+
+```bash
+npx -y @smithery/cli install @NodeGIS/geo-mcp-server --client claude
+```
+
+### 手动安装
 
 ```json
 "geo-mcp-server": {
