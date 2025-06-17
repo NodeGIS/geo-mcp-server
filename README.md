@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/nodegis-geo-mcp-server-badge.png)](https://mseep.ai/app/nodegis-geo-mcp-server)
+
 # @zealgeo/mcp-geo-server
 
 这是一个基于 Model Context Protocol (MCP) 的地理处理工具服务器，提供坐标系统转换、距离计算、面积计算等空间分析功能。
